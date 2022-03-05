@@ -1,0 +1,219 @@
+/******** COLOR STYLES *********/
+$color-body: #ffff ;
+$color-lighter-green:#0A7F2E;
+$color-darker-green:#043914;
+
+
+/********* MAIN STYLES ********/
+body{
+  background-color: #fff;
+  .all{
+    .left-side{
+      .uk-button{
+        background-color: #e5e5e5;
+        margin-left: -180px;
+        margin-top: 200px;
+        transform: rotate(270deg);
+        width: 500px;
+        height: 100px;
+        p{
+          margin-left: 40px;
+          margin-top: 20px;
+          bottom: -30px;
+          font-size: 50px;
+          width: 400px;
+          height: 100px;
+          span{
+            font-size: 20px;
+            position: absolute;
+            top: 60px;
+            left: 185px;
+
+          }
+        }
+      }
+      .uk-offcanvas-bar{
+        overflow-y: hidden;
+        height: 100%;
+        width: 500px;
+        background-color: #e5e5e5;
+        .close-button{
+          width: 70px;
+          height: 70px;
+          font-size: 70px;
+          margin-top: -10px;
+          margin-left: 10px;
+          margin-right: 100px;
+          color: black;
+        }
+        .navbar-brand{
+          width: 600px;
+          height: 100px;
+        }
+
+        .uk-nav-header {
+          h2 {
+            width: 87px;
+            height: 26px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+
+            color: #201F1E;
+          }
+
+          .markaz-hujjat {
+            .markaz {
+              li {
+                margin-top: 5px;
+                color: black;
+
+                a {
+                  width: 71px;
+                  height: 17px;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 17px;
+                  /* identical to box height */
+                  color: #201F1E;
+                }
+              }
+            }
+
+            .hujjatlar {
+              li {
+                margin-top: 5px;
+                color: black;
+
+                a {
+                  width: 30px;
+                  height: 17px;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 17px;
+                  /* identical to box height */
+                  color: #201F1E;
+                }
+              }
+            }
+          }
+
+          .yangilik-boglanish {
+            .yangilik{
+              margin-left: -80px;
+            }
+            .boglanish {
+              margin-left: -80px;
+              margin-top: 150px;
+            }
+          }
+        }
+
+          .language{
+            margin-top: 20px;
+            h3{
+              color: black;
+              a{
+                color: black;
+                text-decoration: black;
+              }
+              .disabled{
+                color: lightgray;
+              }
+            }
+          }
+
+        .uk-nav-footer{
+          margin-top: 50px;
+          .korinish{
+            h3{
+              color: black;
+            }
+            .btn-gray{
+              background-color: gray;
+            }
+            .btn-darkgray{
+              color: white;
+              background-color: #1b1e21;
+            }
+          }
+
+          .shrift{
+            h3{
+              color: black;
+            }
+            p{
+              margin-top: -20px;
+              color: darkgray;
+            }
+            .progress-bar-img{
+              margin-top: -20px;
+              margin-left: 20px;
+            }
+            .progress-switcher-img{
+              margin-top: -20px;
+              margin-left: -130px;
+            }
+          }
+
+          .volume{
+            margin-top: 50px;
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+
+    .center{
+      h2{
+        margin-top: 200px;
+        margin-left: -120px;
+      }
+      .line{
+        margin-left: -120px;
+        width: 181px;
+        height: 1px;
+        background: #201F1E;
+      }
+      .container{
+        margin-left: 10px;
+        .d-flex{
+          margin-left: -170px;
+          .correct-base{
+            margin-top: 15px;
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+          }
+          .correct-inner{
+            width: 30px;
+            height: 30px;
+            margin-top: 10px;
+            margin-left: -25px;
+          }
+          p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 15px;
+            /* identical to box height */
+            color: #000000;
+
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+    .right-side{
+      width: 370px;
+      height: 100%;
+      img{
+        width: 370px;
+        height: 50%;
+      }
+    }
+  }
+}

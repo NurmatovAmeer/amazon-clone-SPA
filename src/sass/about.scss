@@ -1,0 +1,231 @@
+
+/******** COLOR STYLES *********/
+$color-body: #ffff ;
+$color-lighter-green:#0A7F2E;
+$color-darker-green:#043914;
+
+
+/********* MAIN STYLES ********/
+body {
+  position: relative;
+  overflow-x: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+
+  //top codes
+
+  .top{
+    .navbar {
+      z-index: 50;
+      margin-top: 0px;
+      margin-left: 50px;
+
+      .toggler {
+        margin-top: 59px;
+        width: 34px;
+        height: 22px;
+        background-color: #fff;
+        border: #fff;
+
+        .toggler-image {
+          margin-bottom: 10px;
+        }
+      }
+
+      .navbar-brand {
+        margin-left: 60px;
+        margin-top: 50px;
+        width: 250px;
+        height: 40px;
+      }
+
+      .navbar-nav {
+        margin-top: 58px;
+
+        .nav-link {
+          margin-left: 25px;
+        }
+
+        .square1 {
+          position: absolute;
+          top: 68px;
+          left: 500px;
+        }
+
+        .square2 {
+          position: absolute;
+          top: 68px;
+          left: 580px;
+          transform: rotate(180deg);
+        }
+
+        .play {
+          margin-left: 10px;
+        }
+      }
+
+      .phone {
+        margin-top: 40px;
+        margin-left: 100px;
+
+        .phone-number {
+          width: 170px;
+          height: 19px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+        }
+      }
+
+      .search {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 65px;
+        width: 24px;
+        height: 24px;;
+      }
+
+      .btn-outline {
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 163px;
+        height: 50px;
+        border: 1px solid #000;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+//  header codes
+  .header {
+    .left-side {
+      margin-left: 70px;
+      margin-top: 40px;
+
+      img {
+        width: 10px;
+        height: 360px;
+      }
+
+      h1 {
+        margin-top: 170px;
+        margin-left: -160px;
+        width: 350px;
+        height: 69px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 69px;
+
+        color: #DDDDDD;
+
+        transform: rotate(-90deg)
+      }
+
+      .line {
+        margin-top: 240px;
+        margin-left: -40px;
+        width: 100px;
+        height: 0px;
+        left: 65px;
+        top: 950px;
+
+        border: 1px solid #DDDDDD;
+        transform: rotate(90deg);
+      }
+    }
+
+    .base-content {
+      margin-left: 140px;
+      margin-top: -800px;
+      .content{
+        .back-text{
+          width: 1015px;
+          height: 300px;
+          h1{
+            width: 1015px;
+            height: 300px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 200px;
+            line-height: 300px;
+            /* identical to box height */
+            color: #f7f7f7;
+            margin-left: 290px;
+            margin-top: -190px;
+          }
+        }
+
+        .group{
+          img{
+            margin-top: -280px;
+            margin-left: 10px;
+            width: 770px;
+            height: 451px;
+            left: 135px;
+            top: 262px;
+          }
+          .group-background{
+            margin-left: 500px;
+            margin-top: -100px;
+            width: 330px;
+            height: 185px;
+            background-color: #cccccc;
+          }
+          .group-text{
+            border-radius: 0px;
+            background-color: #fff;
+            border: 0px;
+            margin-top: -150px;
+            margin-left: 540px;
+            width: 670px;
+            height: 255px;
+            box-shadow: 6px 6px 7px 0px #cccccc;
+            p{
+              margin-left: 20px;
+              margin-top: 20px;
+              width: 610px;
+              height: 152px;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 26px;
+              /* or 162% */
+              color: #808080;
+            }
+            button{
+              border-radius: 0px;
+              margin-left: 400px;
+              width: 157px;
+              height: 43px;
+              background: #0A7F2E;
+              p{
+                margin-top: 0px;
+                margin-left: 15px;
+                width: 88px;
+                height: 26px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 26px;
+                /* identical to box height, or 144% */
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+
+        .under-group{
+          margin-top: -160px;
+          margin-left: 10px;
+          width: 500px;
+          img{
+            margin: 20px 20px;
+          }
+        }
+      }
+    }
+  }
+}
